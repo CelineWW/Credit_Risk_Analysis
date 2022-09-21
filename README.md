@@ -1,6 +1,6 @@
 # Credit Risk Analysis
 ## Overview
-Credit risk can be predicted by some machine learning models. However, the number of good loans is far more than risky loans. The dataset is heavily unbalanced. In this project, credit card credit dataset from LendingClub was splitted into training and testing subset, and then resampled. six machine learning models were trainned and fit to data to predict credit risk. Based on the results, the best credit risk prediction model was recommended according to balanced accuracy score, the precision and recall scores of each model.
+Credit risk can be predicted by some machine learning models. However, the number of good loans is far more than risky loans. The dataset is heavily unbalanced. In this project, credit card credit dataset from LendingClub was splitted into training and testing subset, and then resampled. six machine learning models were fit to training data to predict credit risk. The accuracy of predictions from each model was calculated. Based on the results, the best credit risk prediction model was recommended according to balanced accuracy score, the precision and recall scores of each model.
 - Models: 
   - Logistic regression model with random oversampled data
   - Logistic regression model with synthetic minority oversampled(SMOTE) data
@@ -69,7 +69,5 @@ Credit risk can be predicted by some machine learning models. However, the numbe
 
 ## Summary
 - As shown in the results, the first four models either undersampled or oversampled, or even combined resampled, they all fit logistic regression model to the training dataset.
-- Recommendations: 
-- regression model  
-- calssification model. random forest run efficiently on large dataset, and reduced the bias more efficiently than  
+- Recommendations: random forest run efficiently on large dataset, and reduced the bias more efficiently than  
 - In AdaBoost, a model is trained then evaluated. After evaluating the errors of the first model, another model is trained. This time, however, the model gives extra weight to the errors from the previous model. The purpose of this weighting is to minimize similar errors in subsequent models. Then, the errors from the second model are given extra weight for the third model. This process is repeated until the error rate is minimized:
