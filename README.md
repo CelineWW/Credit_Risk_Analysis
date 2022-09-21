@@ -37,9 +37,9 @@ Credit risk can be predicted by some machine learning models. However, the numbe
    
  4. **SMOTEENN Model**
  
-   :arrow_lower_right: 
+    :arrow_lower_right: 
    
-   ![SMOTEENN Model](https://user-images.githubusercontent.com/105877888/191419624-f5cc523f-09ef-488a-9f27-7878a5f85d33.png)
+    ![SMOTEENN Model](https://user-images.githubusercontent.com/105877888/191419624-f5cc523f-09ef-488a-9f27-7878a5f85d33.png)
 
  
  5. **Balanced Random Forest Model**
