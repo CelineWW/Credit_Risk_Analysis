@@ -9,6 +9,6 @@ Credit risk can be predicted by some machine learning models. However, the numbe
   - Balanced random forest model
   - Easy ensemble model
 - Evaluations:
-  - The accuracy score of the model
+  - Accuracy score of the model
   - Confusion matrix
   - Imbalanced classification report
