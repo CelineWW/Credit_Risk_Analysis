@@ -16,7 +16,9 @@ Credit risk can be predicted by some machine learning models. However, the numbe
  ## Results
  1. **Naive Random Oversampling Model**
  
-    :arrow_lower_right:  
+    :arrow_lower_right: - *balanced accuracy score: 65.7%*
+                        - precision of high risk: **1%**
+                        - Recall(Sensitivity) of high risk: 71%
    
     ![Naive Random Oversampling Model](https://user-images.githubusercontent.com/105877888/191419580-ea8d49c7-9c61-42d8-9ad4-c53d70b5adfa.png)
 
