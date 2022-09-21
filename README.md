@@ -68,6 +68,16 @@ Credit risk can be predicted by some machine learning models. However, the numbe
     ![Easy Ensemble Model](https://user-images.githubusercontent.com/105877888/191419652-5e1ebed0-4f8d-4c52-b48a-02a6f7bdcdc1.png)
 
 ## Summary
-- As shown in the results, the first four models either undersampled or oversampled, or even combined resampled, they all fit logistic regression model to the training dataset.
-- Recommendations: random forest run efficiently on large dataset, and reduced the bias more efficiently than  
+- As shown in the results, Naive Random Oversampling Model, SMOTE Model, Cluster Centeroids Model, SMOTEENN Model's accuracy scores were 65%, 66%, 54%, 62%, which means these four models had 65%, 66%, 54%, 62% chances to accept that the predictions were correct. In other words, the first four models also had 35%, 34%, 46%, 38% probilities of rejection. Balanced Random Forest Model and Easy Ensemble Model had much higher accuracy score, which were 79% and 93%. 
+
+- For all six models, the precision of high risk were under 10%. Easy Ensemble Model slightly supassed the other models. This is a disappointing result. Being predicted as high risk with these models only means less than 10% likelyhood of actually having credit fraudulent risk. 
+
+- Easy Ensemble Model got a higher sensitivity score (92%). The other five models' sensitivity scores were around 70%. High sensitivity scores stand for a large protion of potentially high risk credit card fraudulent cases were also declared as low risk. 
+
+- The reason why Random Forest Model showed better performance is because random forest run efficiently on large dataset, and reduced the bias more efficiently than  
+morun efficiently on large dataset
 - In AdaBoost, a model is trained then evaluated. After evaluating the errors of the first model, another model is trained. This time, however, the model gives extra weight to the errors from the previous model. The purpose of this weighting is to minimize similar errors in subsequent models. Then, the errors from the second model are given extra weight for the third model. This process is repeated until the error rate is minimized:
+
+- Recommendations: In this credit risk assessment case, we are more concerned about its precision of high risk prediction. Overall, Easy Ensemble Model holded the best performance on predicting high risk of customer's credit among six models in this project. Easy Ensemble Model seems got a satisfing accuracy score(93%) and sensitivity of high risk(92%). However, it had a very low precision of high risk cases(9%) at the same time. This means  
+
+
