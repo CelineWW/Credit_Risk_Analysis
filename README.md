@@ -68,7 +68,7 @@ Credit risk can be predicted by some machine learning models. However, the numbe
     ![Easy Ensemble Model](https://user-images.githubusercontent.com/105877888/191419652-5e1ebed0-4f8d-4c52-b48a-02a6f7bdcdc1.png)
 
 ## Summary
-- As shown in the results, Naive Random Oversampling Model, SMOTE Model, Cluster Centeroids Model, SMOTEENN Model's accuracy scores were 65%, 66%, 54%, 62%, which means these four models had 65%, 66%, 54%, 62% chances to accept that the predictions were correct. In other words, the first four models also had 35%, 34%, 46%, 38% probilities of rejection. Balanced Random Forest Model and Easy Ensemble Model had much higher accuracy score, which were 79% and 93%. 
+- As shown in results, Naive Random Oversampling Model, SMOTE Model, Cluster Centeroids Model, SMOTEENN Model's accuracy scores were 65%, 66%, 54%, 62%, which means these four models had 65%, 66%, 54%, 62% chances to accept that the predictions were correct. In other words, the first four models also had 35%, 34%, 46%, 38% probilities of rejection. Balanced Random Forest Model and Easy Ensemble Model had much higher accuracy score, which were 79% and 93%. 
 
 - For all six models, the precision of high risk were under 10%. Easy Ensemble Model slightly supassed the other models. This was a disappointing result, indicating a large number of false positives. Being predicted as high risk with these models only means less than 10% likelyhood of actually having credit fraudulent risk.  
 
