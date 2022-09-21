@@ -16,8 +16,8 @@ Credit risk can be predicted by some machine learning models. However, the numbe
  ## Results
  1. **Naive Random Oversampling Model**
     :arrow_lower_right: 
-    - balanced accuracy score: **65.7%*
-    - precision of high risk: **1%**
+    - Balanced accuracy score: **65%**
+    - Precision of high risk: **1%**
     - Recall(Sensitivity) of high risk: **71%**
    
     ![Naive Random Oversampling Model](https://user-images.githubusercontent.com/105877888/191419580-ea8d49c7-9c61-42d8-9ad4-c53d70b5adfa.png)
@@ -25,34 +25,45 @@ Credit risk can be predicted by some machine learning models. However, the numbe
  
  2. **SMOTE Model**
     :arrow_lower_right: 
-   
+    - Balanced accuracy score: **66%**
+    - Precision of high risk: **1%**
+    - Recall(Sensitivity) of high risk: **63%**
+    
     ![SMOTE Model](https://user-images.githubusercontent.com/105877888/191419600-a5dae719-e96f-4167-859d-011b6456c484.png)
 
  
  3. **Cluster Centeroids Model**
- 
     :arrow_lower_right: 
-   
+    - Balanced accuracy score: **54%**
+    - Precision of high risk: **1%**
+    - Recall(Sensitivity) of high risk: **69%**
+    
     ![Cluster Centroids Model](https://user-images.githubusercontent.com/105877888/191419613-29057895-4a4a-415c-85b4-2f648be5cd08.png)
 
    
  4. **SMOTEENN Model**
- 
     :arrow_lower_right: 
-   
+    - Balanced accuracy score: **62%**
+    - Precision of high risk: **1%**
+    - Recall(Sensitivity) of high risk: **68%**
+    
     ![SMOTEENN Model](https://user-images.githubusercontent.com/105877888/191419624-f5cc523f-09ef-488a-9f27-7878a5f85d33.png)
 
  
  5. **Balanced Random Forest Model**
- 
     :arrow_lower_right: 
-   
+    - Balanced accuracy score: **79%**
+    - Precision of high risk: **3%**
+    - Recall(Sensitivity) of high risk: **70%**
+    
     ![Balanced Random Forest Model](https://user-images.githubusercontent.com/105877888/191419634-b2ac04ef-f3e5-4ccd-97f7-ef512a8bc989.png)
 
  
  6. **Easy Ensemble Model**
- 
     :arrow_lower_right: 
-   
+    - Balanced accuracy score: **93%**
+    - Precision of high risk: **9%**
+    - Recall(Sensitivity) of high risk: **92%**
+    
     ![Easy Ensemble Model](https://user-images.githubusercontent.com/105877888/191419652-5e1ebed0-4f8d-4c52-b48a-02a6f7bdcdc1.png)
 
