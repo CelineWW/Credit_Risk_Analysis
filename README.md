@@ -1,5 +1,5 @@
 # Credit Risk Analysis
-## **:small_blue_diamond: Supervised Maching Learning :small_blue_diamond: Resampling :small_blue_diamond:**
+### **:small_blue_diamond: Supervised Maching Learning :small_blue_diamond: Resampling :small_blue_diamond:**
 ## Overview
 Credit risk can be predicted by some machine learning models. However, the number of good loans is far more than risky loans. The dataset is heavily unbalanced. In this project, credit card credit dataset from LendingClub was splitted into training and testing subset, and then resampled. six machine learning models were fit to training data to predict credit risk. The accuracy of predictions from each model was calculated. Based on the results, the best credit risk prediction model was recommended according to balanced accuracy score, the precision and sensitivity scores of each model.
 - Models: 
