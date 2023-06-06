@@ -15,6 +15,7 @@ Credit risk can be predicted by some machine learning models. However, the numbe
   - Imbalanced classification report
   
  ## Results
+ ### Models with unscaled dataset
  1. **Naive Random Oversampling Model**
     :arrow_lower_right: 
     - Balanced accuracy score: **65%**
@@ -67,6 +68,19 @@ Credit risk can be predicted by some machine learning models. However, the numbe
     - Recall(Sensitivity) of high risk: **92%**
     
     ![Easy Ensemble Model](https://user-images.githubusercontent.com/105877888/191419652-5e1ebed0-4f8d-4c52-b48a-02a6f7bdcdc1.png)
+
+### Models with scaled data
+
+- This table shows model performance before and after scaling with StandardScalar (`mean = 0, and SD = 1`) .
+
+   | Model  | Balanced accuracy score  | Precision of high risk | Recall of high risk | F1 score of high risk | 
+   |:--- |:---|:---|:---|
+   | **Naive Random Oversampling Model** | 0.84 > `0.66` | 0.03 > `0.01` | 0.83 > `0.71` | 0.06 > `0.02` |
+   | **SMOTE Oversampling Model** | 0.84 > `0.66` | 0.03 > `0.01` | 0.81 > `0.63` | 0.07 > `0.02` |
+   | **Cluster Centeroids Undersampling Model** | 0.81 > `0.54` | 0.02 > `0.01` | 0.86 > `0.69` | 0.04 > `0.01` |
+   | **SMOTEENN Combined Resampling Model** | 0.85 > `0.62` | 0.03 > `0.01` | 0.84 > `0.68` | 0.06 > `0.02` |
+   | **Balanced Random Forest Model** | 0.79 = `0.79` | 0.03 = `0.03` | 0.70 = `0.70` | 0.06 = `0.06` |
+   | **Easy Ensemble Model** | 0.93 = `0.93` | 0.09 = `0.09` | 0.92 = `0.92` | 0.16 = `0.16` |
 
 ## Summary
 - As shown in the results, Naive Random Oversampling Model, SMOTE Model, Cluster Centeroids Model, SMOTEENN Model's accuracy scores were 65%, 66%, 54%, 62%, which means these four models had 65%, 66%, 54%, 62% chances to accept that the predictions were correct. In other words, the first four models also had 35%, 34%, 46%, 38% probilities of rejection. Balanced Random Forest Model and Easy Ensemble Model had much higher accuracy scores, which were 79% and 93%. 
